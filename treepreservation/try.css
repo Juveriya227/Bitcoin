@@ -1,0 +1,333 @@
+#bottom_user_ads_container img,
+#top_user_ads_container img{
+    vertical-align:baseline
+}
+
+@media only screen and (max-width:40em){
+    reveal-modal,dialog{
+        min-height:auto;
+        padding:10px
+    }
+}
+
+#myModal22{
+    border-radius:10px;
+    background-size:cover
+}
+
+#earn_more{
+    color:#fff;
+    text-shadow:0 0 5px #000
+}
+
+#multiply_times{
+    color:#fff;
+    text-shadow:0 0 2px #000;
+    margin-top:10px
+}
+
+#multiply_now_div{
+    max-width:400px;
+    display:inline-block;
+    padding:10px;
+    background:orange;
+    margin-top:10px;
+    border:3px solid #ffb833;
+    box-shadow:0 0 10px #000205;
+    cursor:pointer;
+    border-radius:5px
+}
+
+#multiply_now_div:hover{
+    background:#ffb833;
+    border:3px solid #ffc966;box-shadow:none
+}
+
+#multiply_now_div a{
+    text-decoration:none
+}
+
+#reward_point_redeem_result_container_div{
+    display:none;
+    position:fixed;
+    top:55px;
+    left:0;
+    width:100%;
+    z-index:999
+}
+
+.reward_point_redeem_result_box{
+    margin-right:auto;
+    margin-left:auto;
+    max-width:400px;
+    padding:15px;
+    color:#fff;
+    font-weight:700;
+    border-radius:5px;
+    position:relative;
+    text-shadow:0 0 2px #585656
+}
+
+.reward_point_redeem_result_error{
+    background-color:#ff3539;
+    box-shadow:0 0 10px gray
+}
+
+.reward_point_redeem_result_success{
+    background-color:#067d06;
+    box-shadow:0 0 2px #22381f
+}
+
+.reward_point_redeem_result_box_close{
+    position:absolute;
+    right:9px;
+    top:0;
+    color:#2b2b2b
+}
+
+.earn_reward_points_p{
+    padding:5px;
+    border:1px solid rgba(0,0,0,.2);
+    border-radius:5px;
+    color:#111;
+    background:#87ff8f;
+    font-weight:400
+}
+
+.new_button_style{
+    padding:14px;
+    color:#fff;
+    cursor:pointer;
+    width:120px;
+    font-size:15px;
+    font-weight:700;
+    text-transform:uppercase;
+    margin:10px;
+    border-radius:3px
+}
+
+.red_button_big{
+    box-shadow:inset 0 1px 0 0 #f99;
+    text-shadow:0 0 2px #011c22;
+    background:-webkit-gradient(linear,left top,left bottom,color-stop(0.05,#ec0000),color-stop(1,#ad00008a));
+    background:-moz-linear-gradient(top,#ec0000 5%,#ad00008a 100%);
+    background:-webkit-linear-gradient(top,#ec0000 5%,#ad00008a 100%);
+    background:-o-linear-gradient(top,#ec0000 5%,#ad00008a 100%);
+    background:-ms-linear-gradient(top,#ec0000 5%,#ad00008a 100%);
+    background:linear-gradient(to bottom,#ec0000 5%,#ad00008a 100%);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ec0000',endColorstr='#ad00008a',GradientType=0);
+    background-color:#ad00008a;border:1px solid #9d0b0f;width:360px;text-align:center;margin:auto
+}
+
+.auto_bet_setting_span{
+    color:#fff;
+    border:1px solid #fff;
+    border-radius:50%;
+    padding:0 4px;
+    font-size:10px;
+   }
+
+a.auto_bet_setting_span span{
+    display:none;
+    color:#1a1a1a;
+    background-color:#fc3;
+    padding:10px;
+    border:2px solid #e6ac00;
+    border-radius:4px;
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+    width:auto;
+    text-align:center;
+    position:absolute;
+    z-index:100;
+    text-shadow:none;
+    font-size:14px
+}
+
+a.auto_bet_setting_span{
+    display:inline-block
+}
+
+a.auto_bet_setting_span:hover span{
+    display:block
+}
+
+#auto_bet_running{
+    color:#1a1a1a;
+    background-color:#fc3;
+    padding:10px;
+    border:2px solid #e6ac00;
+    border-radius:4px;
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+    max-width:264px;
+    text-align:center;
+    position:absolute;
+    z-index:100;
+    text-shadow:none;
+    font-size:14px;
+    line-height:18px
+}
+
+.captchasnet_captcha_container_div{
+    width:290px;
+    height:auto;
+    margin:auto;
+    border-radius:5px
+}
+
+.captchasnet_captcha_change_p{
+    margin:0;
+    box-shadow:inset 0 1px 0 0 #b7eac8;
+    background:linear-gradient(to bottom,#40ff7f 5%,#2EB85C 100%);
+    background-color:#2eb85c;border-bottom:1px solid #0a9c3b;cursor:pointer
+}
+
+.captchasnet_captcha_change_p:hover{
+    box-shadow:inset 0 1px 0 0 #b7eac8;
+    background:linear-gradient(to bottom,#67ff99 5%,#46c570 100%);
+    background-color:#46c570;
+    border-bottom:1px solid #0a9c3b;
+    text-shadow:none
+}
+
+.captchasnet_captcha_input_box{
+    text-align:center;
+    color:#000!important;
+    border-radius:0 0 5px 5px;
+    font-size:14px!important;
+    font-weight:bold!important
+}
+.captchasnet_captcha_header{
+    border-bottom:none;
+    margin:0;
+    padding:8px 0;
+    border-radius:5px 5px 0 0;
+    background:#002b3a;
+    color:#ffe766;
+    font-size:15px;
+    font-weight:700;
+    border:1px solid #011f29
+}
+
+.captchasnet_captcha_container_div{
+    width:290px;
+    height:auto;
+    margin:auto;
+    border-radius:5px
+}
+
+.captchasnet_captcha_input_box{
+    text-align:center;
+    color:#000!important;
+    border-radius:0 0 5px 5px;
+    font-size:14px!important;
+    font-weight:bold!important
+}
+
+.captchasnet_captcha_content{
+    width:242px;
+    height:82px;
+    border:1px solid #ccc;
+    border-bottom:none;
+    float:left
+}
+
+.captchasnet_captcha_options_div{
+    width:48px;
+    height:82px;
+    border-right:1px solid #0a9c3b;
+    float:left
+}
+
+.captchasnet_captcha_info_span{
+    font-weight:400;
+    text-align:left;
+    position:absolute;
+    z-index:99;
+    background-color:#fc3;
+    padding:5px;
+    border:1px solid #e6ac00;
+    width:320px;
+    border-radius:4px;
+    margin-top:23px;
+    margin-left:-180px;
+    display:none;
+    font-size:14px
+}
+
+.profile_page_button_style{
+    box-shadow:inset 0 1px 0 0 #cce6ff;
+    text-shadow:0 0 2px #011c22;
+    background:-webkit-gradient(linear,left top,left bottom,color-stop(0.05,#3399FF),color-stop(1,#004D99));
+    background:-moz-linear-gradient(top,#3399FF 5%,#004D99 100%);
+    background:-webkit-linear-gradient(top,#3399FF 5%,#004D99 100%);
+    background:-o-linear-gradient(top,#3399FF 5%,#004D99 100%);
+    background:-ms-linear-gradient(top,#3399FF 5%,#004D99 100%);
+    background:linear-gradient(to bottom,#3399FF 5%,#004D99 100%);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#3399FF',endColorstr='#004D99',GradientType=0);
+    background-color:#004d99;border:1px solid #06c
+}
+
+.profile_page_button_style:hover{
+    box-shadow:inset 0 1px 0 0 #cce6ff;
+    background:-webkit-gradient(linear,left top,left bottom,color-stop(0.05,#66B3FF),color-stop(1,#0066CC));
+    background:-moz-linear-gradient(top,#66B3FF 5%,#0066CC 100%);
+    background:-webkit-linear-gradient(top,#66B3FF 5%,#0066CC 100%);
+    background:-o-linear-gradient(top,#66B3FF 5%,#0066CC 100%);
+    background:-ms-linear-gradient(top,#66B3FF 5%,#0066CC 100%);
+    background:linear-gradient(to bottom,#66B3FF 5%,#0066CC 100%);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#66B3FF',endColorstr='#0066CC',GradientType=0);
+    background-color:#06c
+}
+
+.auto_bet_setting_span{
+    color:#fff;
+    border:1px solid #fff;
+    border-radius:50%;
+    padding:0 4px;
+    font-size:10px!important
+}
+
+a.auto_bet_setting_span span{
+    display:none;
+    color:#1a1a1a;
+    background-color:#fc3;
+    padding:10px;
+    border:2px solid #e6ac00;
+    border-radius:4px;
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+    width:auto;
+    text-align:center;
+    position:absolute;
+    z-index:100;
+    text-shadow:none;
+    font-size:14px
+}
+
+a.auto_bet_setting_span{
+    display:inline-block
+}
+
+a.auto_bet_setting_span:hover span{
+    display:block
+}
+
+#auto_bet_running{
+    color:#1a1a1a;
+    background-color:#fc3;
+    padding:10px;
+    border:2px solid #e6ac00;
+    border-radius:4px;
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+    max-width:264px;
+    text-align:center;
+    position:absolute;
+    z-index:100;
+    text-shadow:none;
+    font-size:14px;
+    line-height:18px
+}
+

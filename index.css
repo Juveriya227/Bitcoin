@@ -1,0 +1,29 @@
+.fixed
+{
+    width: 100%;
+    left: 0;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+    background: black;
+}
+.top-bar .name {
+    height: 45px;
+    margin: 4px;
+}
+.dropdown-content a { 
+    text-decoration: none; 
+    background: #111111; 
+    display: block; 
+    width: 100%; 
+    font-weight: bold; 
+    color: white; 
+    border-bottom: solid 1px #2b2b2b; 
+} 
+.dropdown-content a:last-child { 
+    border-bottom: none;
+ } 
+.dropbtn:hover, .dropdown-content a:hover { 
+    background: black !important; 
+    color: yellow !important; 
+}
